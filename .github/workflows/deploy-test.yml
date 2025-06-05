@@ -76,5 +76,5 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "studio-nextjs-test"
+          project: "sahilkamble-nextjs"
           entrypoint: "jsr:@deno/nextjs-start/v15"
