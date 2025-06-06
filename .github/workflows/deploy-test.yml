@@ -30,6 +30,8 @@ jobs:
 
          echo "NEXT_PUBLIC_BASE_URL=${{ secrets.DEV_PUBLIC_BASE_URL }}" >> .env
 
+         echo "NODE_ENV=production" >> .env
+
          echo "PUBLIC_SHOW_NAME_AS_LOGO=true" >> .env
 
          echo "PUBLIC_PLATFORM_NAME=CREDEBL" >> .env
